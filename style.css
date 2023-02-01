@@ -1,34 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
+  background-color: #f1f1f1;
+  color: #0f141e;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: normal;
-  background: #f1f1f1;
-  color: #0f141e;
 }
-
-a {
-  /* color: #0f141e; */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* a:active {
-  color: blue;
-} */
-
-/* a:visited {
-  color: grey;
-} */
 
 .container {
   max-width: 750px;
   margin: auto;
   padding-top: 30px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .photo {
@@ -38,54 +25,40 @@ a:hover {
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
-.info {
-  margin-bottom: 20px;
-  display: flex;
-}
-
 .info-text {
   margin-left: 40px;
-  margin-top: -10px; /* MIR */
+  margin-top: -15px;
+}
+
+.info-text h4 {
+  margin-bottom: 5px;
 }
 
 .info-text p {
   font-style: italic;
-  /* font-weight: bold; */
-  color: #0f141e;
-  margin: -5px 0; /* MIR */
-}
-
-.info-text h4 {
-  margin-bottom: 10px;
-}
-
-@media (max-width: 650px) {
-  .info {
-    display: block;
-    text-align: center;
-  }
+  margin: 0;
 }
 
 .card {
-  border-radius: 20px;
   padding: 15px 20px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .card h2 {
   margin-bottom: 10px;
 }
 
-.bg-yellow {
-  background: #fff9dc;
+.bg-green {
+  background-color: #e5ffe7;
 }
 
 .bg-red {
-  background: #ffe5e5;
+  background-color: #ffe5e5;
 }
 
-.bg-green {
-  background: #e5ffe7;
+.bg-yellow {
+  background-color: #fff9dc;
 }
 
 .list {
@@ -93,19 +66,7 @@ a:hover {
 }
 
 .list li {
-  color: #0f141e;
   margin-bottom: 10px;
-}
-
-.link-list {
-  list-style: none;
-  padding: 0;
-}
-
-.link-list li {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
 }
 
 .table {
@@ -116,7 +77,24 @@ a:hover {
   padding-bottom: 10px;
 }
 
-/* .table td:nth-child(2),
-.table td:nth-child(3) {
-  color: #86898f;
-} */
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #0000ff;
+}
