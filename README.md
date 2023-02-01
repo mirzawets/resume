@@ -1,2 +1,2 @@
 ## Final result
-https://mirzawets.github.io/cv/
+https://mirzawets.github.io/resume/
