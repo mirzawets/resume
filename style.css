@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+  }
+}
+
+.photo {
+  width: 200px;
+  height: 270px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text {
+  margin-left: 40px;
+  margin-top: -15px;
+}
+
+.info-text h4 {
+  margin-bottom: 5px;
+}
+
+.info-text p {
+  font-style: italic;
+  margin: 0;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.bg-green {
+  background-color: #e5ffe7;
+}
+
+.bg-red {
+  background-color: #ffe5e5;
+}
+
+.bg-yellow {
+  background-color: #fff9dc;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #0000ff;
+}
+
+.skills {
+  display: flex;
+}
+
+.hard-skills {
+  margin-right: 250px;
+}
